@@ -3,7 +3,8 @@ window.addEventListener('load', () => {
         let btn = document.querySelector(btnSelector),
             search = document.querySelector(searchSelector)
         btn.addEventListener('click', () => {
-            search.classList.toggle('search-icon--active');
+            search.classList.toggle('search-active');
+            btn.classList.toggle('search-icon--active');
         });
     };
 
